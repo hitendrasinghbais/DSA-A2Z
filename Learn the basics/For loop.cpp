@@ -1,4 +1,4 @@
-*/ Given two integers low and high, return the sum of all integers from low to high inclusive.*/
+/* Given two integers low and high, return the sum of all integers from low to high inclusive.*/
 
 class Solution {
 public:
