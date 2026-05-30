@@ -1,3 +1,10 @@
+/*
+1        1
+12      21
+123    321
+1234  4321
+1234554321
+*/
 class Solution {
 public:
     void pattern12(int n) 
@@ -24,7 +31,6 @@ public:
         if(k==0) break;
         cout<<k;
         k--;
-    
      }
         r-=1;
         j++;
