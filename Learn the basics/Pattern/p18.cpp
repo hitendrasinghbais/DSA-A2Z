@@ -14,16 +14,35 @@ class Solution {
 public:
     void pattern18(int n) 
     { int j=0;
-    char r='E';
+    char r;
+    if(n==1){r='A';}
+    if(n==2){r='B';}
+    if(n==3){r='C';}
+    if(n==4){r='D';}
+    if(n==5){r='E';}
+    int m=1;
+    int s=1;
     while(j<n)
     {   int i=0;
          while(i<=j)
          {
           cout<<r;
+          if(i<s-1)
+          {
+            cout<<" ";
+          }
           i++;
           r++;
          }
-         r-=3;
+         s++;
+         r--;
+         i=0;
+         while(i<m)
+         {
+            r--;
+            i++;
+         }
+        m++;
         j++;
         cout<<endl;
     }
