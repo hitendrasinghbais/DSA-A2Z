@@ -18,7 +18,7 @@ public:
      while(j<n)
      {
         int i=0;
-        int p=1;
+        int p=0;
         while(i<g-1)
         {
             cout<<" ";
@@ -38,6 +38,7 @@ public:
         }
         k+=2;
         a=0;
+        r--;
         while(a<s)
         { r--;
             cout<<r;
